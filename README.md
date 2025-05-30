@@ -1,14 +1,13 @@
-
-# Basketball Stat Keeper with Drone Integration
+# Basketball Play Decision Analyzer with Drone Integration
 
 ## Overview
-This application is designed to revolutionize basketball stat tracking by utilizing drone technology. The drone captures live footage of the game, and the application processes the data to provide real-time statistics for players and teams.
+This application is designed to analyze basketball players' decision-making during games, helping determine whether they are making the right plays. By utilizing drone technology, the application provides a unique perspective to evaluate player choices and improve overall gameplay strategy.
 
 ## Features
-- **Drone Integration**: Seamlessly connects with drones to capture game footage.
-- **Real-Time Stats**: Tracks player performance and team statistics during the game.
-- **Advanced Analytics**: Provides detailed insights into player efficiency, shot accuracy, and more.
-- **User-Friendly Interface**: Easy-to-use dashboard for coaches, analysts, and players.
+- **Drone Integration**: Acts as a support referee, offering a better vantage point to capture game footage and assist in decision-making analysis.
+- **Play Analysis**: Evaluates player decisions in real-time, such as passing, shooting, or positioning, to determine optimal choices.
+- **Advanced Insights**: Provides detailed feedback on player efficiency, decision accuracy, and situational awareness.
+- **User-Friendly Interface**: Easy-to-use dashboard for coaches, analysts, and players to review play-by-play analysis.
 
 ## Installation
 1. Clone the repository:
@@ -27,13 +26,4 @@ This application is designed to revolutionize basketball stat tracking by utiliz
 ## Usage
 1. Connect your drone to the application.
 2. Start the game and let the drone capture footage.
-3. View real-time stats and analytics on the dashboard.
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-For questions or support, please contact [your email address].
+3. Analyze player decisions and view insights on the dashboard.
