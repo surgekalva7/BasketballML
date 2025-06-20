@@ -1,13 +1,15 @@
-# Basketball Out-of-Bounds Analyzer with Drone Integration
+# Basketball Out-of-Bounds Play Detection Model
 
 ## Overview
-This application is designed to determine whether a basketball is out of bounds during a game. By utilizing drone technology, the application provides a unique vantage point to accurately track the ball's position relative to the court boundaries.
+This project focuses on developing a machine learning model to detect whether a basketball play is out of bounds. By analyzing player positions, ball movements, and court boundaries, the model aims to provide accurate and real-time decisions to assist referees and improve game fairness.
 
 ## Features
-- **Drone Integration**: Acts as a support referee, offering a better vantage point to capture game footage and assist in boundary detection.
-- **Boundary Analysis**: Tracks the basketball's position in real-time to determine if it is within the court boundaries.
-- **Advanced Insights**: Provides detailed feedback on boundary violations to improve referee accuracy and game fairness.
-- **User-Friendly Interface**: Easy-to-use dashboard for referees, coaches, and analysts to review boundary-related decisions.
+- **Boundary Detection**: Identifies court boundary lines to determine in-bounds and out-of-bounds areas.
+- **Ball Tracking**: Detects the basketball and tracks its movement during gameplay.
+- **Impact Analysis**: Determines where the ball hits the ground and whether it lands on or outside the boundary line.
+- **Player Positioning**: Detects player locations and identifies which side of the boundary line they are on.
+- **Violation Detection**: Determines if a player is out of bounds while touching the ball.
+- **Last Touch Analysis**: Identifies the last player to touch the ball before it goes out of bounds.
 
 ## Installation
 1. Clone the repository:
@@ -24,6 +26,14 @@ This application is designed to determine whether a basketball is out of bounds 
     ```
 
 ## Usage
-1. Connect your drone to the application.
-2. Start the game and let the drone capture footage.
-3. Analyze boundary decisions and view insights on the dashboard.
+1. Connect your drone or camera system to the application.
+2. Start capturing game footage.
+3. Analyze out-of-bounds plays and view insights on the dashboard.
+
+## TODOs
+1. Implement functionality to detect court boundary lines.
+2. Develop ball detection and tracking capabilities.
+3. Add logic to determine where the ball hits the ground and its position relative to the boundary line.
+4. Enable detection of player positions and their relation to the boundary line.
+5. Implement checks for players being out of bounds while touching the ball.
+6. Create a system to identify the last player to touch the ball before it goes out of bounds.
